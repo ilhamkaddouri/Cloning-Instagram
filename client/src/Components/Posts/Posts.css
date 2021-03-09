@@ -1,0 +1,21 @@
+.home__conatainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.app__stories{
+
+    height: 100px;
+    width: 55vw;
+    align-items: center;
+    margin: auto;
+    background-color :white;
+
+}
+
+.home__posts{
+    margin: 20px 0;
+}

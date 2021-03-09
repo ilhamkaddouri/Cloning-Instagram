@@ -1,0 +1,4 @@
+.app__stories{
+    display: flex;
+    overflow-y: scroll;
+}

@@ -1,0 +1,102 @@
+.profile__cantainer{
+    
+    height: 100vh;
+    width: 30vw;
+    align-items: center;
+
+    padding:20px;
+}
+
+.profile__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user__avatar{
+    margin-right: 12px;
+}
+
+.profile__infos{
+    display: flex;
+    align-items: center;
+}
+.user__infos > h4{
+    font-weight: lighter;
+}
+.user__infos > p{
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(192, 192, 192);
+}
+
+.switch__button{
+    font-size: 12px;
+    color: rgb(16, 219, 255);
+    text-decoration: none;
+    outline: none;
+}
+
+.profile__suggestions{
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestions__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 12px 0;
+    
+    
+}
+.suggestions__header > h4{
+    color: rgb(167, 167, 167);
+    font-size: 13px;
+
+}
+
+.suggestions__header > p{
+    font-size: 10px;
+}
+
+
+.user__infos > p{
+    font-weight: normal;
+    font-size: smaller;
+}
+.user__suggestions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items :center;
+    margin-bottom : 7px
+}
+
+.suggestions{
+    display: flex;
+    align-items : center;
+    
+}
+
+.suggestion__infos{
+    padding: 0 8px;
+}
+
+.suggestion__infos > h4{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+.suggestion__infos > p{
+    
+    color: rgb(133, 133, 133);
+    font-size: 10px;
+}
+
+@media (max-width: 900px){
+    .profile__cantainer{
+        display: none;
+    }
+}

@@ -1,0 +1,57 @@
+.app__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding: 0 100px;
+  
+  }
+  
+  .app__headerImage{
+   
+    height: 50px;
+    width: 90px;
+  }
+
+  .app__headerInput{
+      outline: none;
+      border: none;
+  }
+  .app__headerInput > form >input{
+      outline: none;
+      border-radius: 2px;
+      border: 1px solid lightgray;
+      padding: 5px;
+      width: 200px;
+  }
+  .app__headerInput > form >button{
+      display: none;
+  }
+
+  .app__headerRight  {
+      display: flex;
+     align-items : center;
+     justify-content: space-between;
+  }
+
+  .app__headerButton{
+      margin: 0 15px;
+  }
+
+  .app__headerAvatar{
+      height: 40px;
+      width: 40px;
+  }
+.app__icons{
+    color: black;
+    font-size: large;
+}
+  @media(max-width : 900px){
+      .app__headerInput{
+          display: none;
+      }
+      .app__header{
+          padding: 0;
+      }
+  }

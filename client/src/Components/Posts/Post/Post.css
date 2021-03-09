@@ -1,0 +1,76 @@
+
+.app__post{
+    max-width: 600px;
+    background-color :white;
+    margin-bottom: 45px;
+    border: 1px solid lightgray;
+    border-radius: 5px
+}
+.app__postNavbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    padding: 12px;
+
+}
+.post__image{
+    width: 100%;
+    object-fit: contain;
+}
+.app__postInfos{
+    display: flex;
+    align-items: center;
+}       
+.app__postUser{
+    margin-left: 10px;
+}
+.app__postUser > h4{
+    font-size: 13px;
+    
+}
+.app__postUser > p{
+    font-size: 10px;
+    
+
+}
+
+.post__likes{
+    padding: 12px;
+    font-weight: 200px;
+}
+.app__postCaption{
+    padding: 5px 12px;
+}
+.post__caption{
+    font-weight: normal;
+}
+.app__postComment{
+    display: flex;
+    align-items : center;
+    flex-direction : row;
+    border-top: 1px solid lightgray;
+    
+}
+.app__postComment > form >input{
+    outline: none;
+    border : none;
+    height: 20px;
+    flex: 1;
+
+}
+
+.app__postIcons{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.app__postComment > form > button{
+    display: none;
+}
+
+@media (max-width: 900px){
+    .app__post{
+       
+    }
+}
